@@ -1,6 +1,11 @@
 import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
 
 function App() {
-	return <div className="text-3xl text-red-400 font-medium">App</div>;
+	return (
+		<div className="min-h-screen">
+			<Home />
+		</div>
+	);
 }
 export default App;
